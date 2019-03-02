@@ -5,12 +5,18 @@
 	  	"log1": {   
 	  		"id" : "bot321654_L101",
 		   	"log":"BAD",
-		   	"Distance":"30",
-		   	"trilling":"SMOOTH",
-		   	"Comment":" ",
-		   	"Location":{  
-		    	"lat":47.615694,
-		    	"lon":-122.3359976
+		   	"sensors" : {
+			   	"Distance":"30",
+			   	"Air":"",
+			   	"Comment":" ",
+			   	"Gps":{  
+			    	"lat":47.615694,
+			    	"lon":-122.3359976
+			   		},
+		   		"Accelerometer":{  
+		    		"yaw": 0.14,
+		    		"pitch":0.40,
+		    		"roll":0.98 
 		   		}
 		   	},
 		"log2": {   
@@ -18,21 +24,35 @@
 		   	"log":"BAD",
 		   	"Distance":"30",
 		   	"trilling":"SMOOTH",
-		   	"Comment":" ",
-		   	"Location":{  
-		    	"lat":47.615694,
-		    	"lon":-122.3359976
+		   	"sensors" : {
+			   	"Distance":"30",
+			   	"Air":"",
+			   	"Comment":" ",
+			   	"Gps":{  
+			    	"lat":47.615694,
+			    	"lon":-122.3359976
+			   		},
+		   		"Accelerometer":{  
+		    		"yaw": 0.14,
+		    		"pitch":0.40,
+		    		"roll":0.98 
 		   		}
 		   	},
 		"log3": {   
 	  		"id" : "bot321654_L103",
 		   	"log":"GOOD",
-		   	"Distance":"30",
-		   	"trilling":"BUMPY",
-		   	"Comment":" ",
-		   	"Location":{  
-		    	"lat":47.615694,
-		    	"lon":-122.3359976
+		   	"sensors" : {
+			   	"Distance":"30",
+			   	"Air":"",
+			   	"Comment":" ",
+			   	"Gps":{  
+			    	"lat":47.615694,
+			    	"lon":-122.3359976
+			   		},
+		   		"Accelerometer":{  
+		    		"yaw": 0.14,
+		    		"pitch":0.40,
+		    		"roll":0.98 
 		   		}
 		   	},
 		"log4": {   
@@ -51,6 +71,8 @@
 		    		"pitch":0.40,
 		    		"roll":0.98 
 		   		}
-		   	},	
+		   	}
+		}
+	}	
 }
 
